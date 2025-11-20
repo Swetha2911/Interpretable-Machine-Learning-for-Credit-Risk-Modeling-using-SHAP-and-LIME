@@ -1,0 +1,15 @@
+
+GLOBAL FINDINGS (SHAP):
+- DTI, revolving utilization, & delinquencies increase default risk.
+- High income and long credit history reduce default risk.
+
+LOCAL FINDINGS (SHAP & LIME):
+- Both methods consistently identify DTI & utilization as top contributors.
+- LIME is easier to interpret locally; SHAP is more consistent globally.
+
+POLICY RECOMMENDATIONS:
+1. Avoid approving loans with DTI > 45%.
+2. Flag customers with 2+ delinquencies for manual review.
+3. Encourage utilization < 60%.
+4. Prefer customers with long credit histories.
+5. Use income stability as a compensating factor.
